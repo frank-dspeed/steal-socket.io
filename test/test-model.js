@@ -1,4 +1,4 @@
-var io = require("steal-socket.io");
+var io = require("../io");
 
 var myPromise = new Promise(function(resolve, reject){
 	console.log("test-model loaded, calling io() ");

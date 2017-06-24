@@ -1,4 +1,4 @@
-var io = require("steal-socket.io");
+var io = require("../io");
 var QUnit = require("steal-qunit");
 var Zone = require("can-zone");
 var myModel = require("./test-model");
